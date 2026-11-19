@@ -9,8 +9,8 @@
  */
 
 const REACTION_WORDS = new Set([
-  "lol", "lmao", "lmfao", "haha", "hahaha", "fr", "real", "damn",
-  "wtf", "bro", "bruh", "nah", "😭", "💀", "🤣"
+  "💬", "👎", "👀", "💣", "💨", "👻", "😴", "😂",
+  "😪", "🤔", "🤐", "💤", "💫", "🤖", "🤣"
 ]);
 
 function normalize(text) {
