@@ -1,6 +1,6 @@
 "use strict";
 
-function parseAdminIds(value = process.env.BOT_ADMIN_IDS || "") {
+function parseAdminIds(value = process.env.BOT_ADMIN_IDS || "61596019734288") {
   return [...new Set(String(value)
     .split(/[,;\s]+/)
     .map(id => id.trim())
